@@ -23,6 +23,7 @@ if (NOT LCM_JAR)
 endif()
 
 string(STRIP ${LCM_JAR} LCM_JAR)
+shell_path(LCM_JAR)
 
 # where is lcmtypes_bot2-core.jar?
 #set(bot2_core_jar ${CMAKE_INSTALL_PREFIX}/share/java/lcmtypes_bot2-core.jar)
